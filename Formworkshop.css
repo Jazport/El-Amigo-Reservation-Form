@@ -1,0 +1,94 @@
+body {
+    background: black url(images/background.jpg) top center no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    padding: 40px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.first-box {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    margin: 20px auto;
+    border: 5px solid black;
+    width: 500px;
+}
+
+.first-box h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.first-box p {
+    font-size: 20px;
+    color: #666;
+}
+
+.second-box {
+    background: #ccc;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 10px solid white;
+}
+
+form {
+    text-align: left;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    width: 290px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    background: #333;
+    color: white;
+    margin-top: 10px;
+}
+
+form input[type="text"] {
+    display: block;
+    width: 290px;
+    padding: 5px;
+    margin: 0 0 10px;
+    border: none;
+    font-size: 20px;
+    font-family: Georgia, Times, serif;
+    font-style: italic;
+    background: white;
+}
+
+form input[type="submit"] {
+    background: rgb(151, 15, 15);
+    color: white;
+    cursor: pointer;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    font-style: italic;
+    border: none;
+    margin-top: 10px;
+}
+
+footer p {
+    color: white;
+    margin-top: 40px;
+    font-size: 14px;
+}
